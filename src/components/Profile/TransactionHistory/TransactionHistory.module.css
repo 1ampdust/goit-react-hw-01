@@ -1,0 +1,32 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.nameValues {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+     background-color: black;
+}
+
+.values {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.secondValues {
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: gray;
+}
+
+.values {
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}

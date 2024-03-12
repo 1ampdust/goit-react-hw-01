@@ -1,5 +1,7 @@
 import userData from "./userData.json";
 import friends from "./friends.json";
+import TransactionHistory from "./components/Profile/TransactionHistory/TransactionHistory";
+import transactions from './transactions.json';
 import Profile from "./components/Profile/Profile";
 import FriendList from "./components/Profile/FriendList/FriendList";
 
@@ -12,11 +14,11 @@ const App = () => {
     location={userData.location}
     image={userData.avatar}
     stats={userData.stats}
-         />
-    <FriendList friends={friends} />
+   />
+   <FriendList friends={friends} />
+   <TransactionHistory items={transactions} />
   </>
  );
 };
 
 export default App;
-
